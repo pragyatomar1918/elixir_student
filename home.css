@@ -26,9 +26,9 @@ li a:hover {
 
 .container
 {
-position: absolute;
-    bottom:650;
-    right: 500;
+position: relative;
+    bottom:420;
+    left:460 ;
     font-family: "Montserrat";
     width: 600;
 
@@ -36,9 +36,9 @@ position: absolute;
 p{
     font-family: "Montserrat";
     font-size: 50;
-    position: absolute;
-    bottom: 400;
-    right: 500;
+    position: relative;
+    bottom: 120;
+    left: 500;
     color: white;
     font-weight:100;
 }
@@ -144,4 +144,14 @@ h1{
 box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
     outline: none;
 
+}
+hr{
+    background-color: orange;
+    width: 10%;
+    position: relative;
+    top:300;
+    right: -20;
+    height: 1px;
+    color: orange;
+    border: none;
 }

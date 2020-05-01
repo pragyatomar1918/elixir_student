@@ -1,0 +1,103 @@
+#top {
+    top: 0;
+    background-color: orange;
+    height: 100px;
+}
+body{
+  background: #FFFFFF;
+  font-family:Montserrat;
+  font-size:12px;
+}
+
+*{transition:all 0.3s ease-in-out;}
+
+.container{
+  clear:both;
+  overflow:auto;
+  background: white;
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+    position: relative;
+    width: 1300;
+    top:45;
+    left:95;
+    
+}
+.outer{
+    background: orange;
+    position: relative;
+    height: 150px;}
+nav{float:right;}
+
+.logo img{float:left; padding:8px;}
+
+ul li{
+   display: inline-block; padding:10px;
+  font-size:20px; font-family:"Montserrat";
+}
+
+ul li:hover{
+  color:orange;
+  
+}
+
+.button{
+  display: inline-block;
+  font-family: 'Montserrat';
+  background-color: #FFA348;
+  border: none;
+  color: black;
+  padding: 12px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+    outline: none;
+
+}
+#container{
+    text-align: right;
+}
+#box{
+    z-index: 1;
+    width:450px;
+    height:290px;
+    margin:auto;
+    position: center;
+    border-style: solid;
+  border-width: 1px;
+border-color: #006200;
+    background-color: white;
+    top: 350;
+     
+    left: 160;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);    
+}
+
+#box1{
+    z-index: 1;
+    width:450px;
+    height:290px;
+    margin:auto;
+    position: center;
+    border-style: solid;
+  border-width: 1px;
+border-color: #af0000;
+    background-color: white;
+    top: 350;
+     
+    left: 160;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);    
+}
+hr{
+    background-color: orange;
+    width: 8%;
+   
+    align-content: center;
+    height: 1px;
+    color: orange;
+    border: none;
+}

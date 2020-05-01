@@ -31,6 +31,7 @@ position: relative;
     left:460 ;
     font-family: "Montserrat";
     width: 600;
+    
 
 }
 p{
@@ -45,6 +46,7 @@ p{
 body
 {
     background-color: lightgray;
+    overflow-x: hidden;
 }
 #box{
     z-index: 1;
@@ -125,9 +127,9 @@ h3{
 h1{
     font-family: "Montserrat";
     font-weight: 100;
-    position: absolute;
-    top: 300;
-    right: 200;
+    position: relative;
+    bottom: 250;
+    left: 700;
 }
 .button{
   font-family: 'Montserrat';
@@ -148,10 +150,36 @@ box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
 hr{
     background-color: orange;
     width: 10%;
-    position: relative;
-    top:300;
-    right: -20;
+    align-content: center;
     height: 1px;
     color: orange;
     border: none;
+}
+*{transition:all 0.3s ease-in-out;}
+
+.container{
+  clear:both;
+  overflow:auto;
+  background: white;
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+    position: relative;
+    width: 1300;
+    bottom:400;
+    left:85;     
+    
+}
+
+nav{float:right;}
+
+.logo img{float:left; padding:8px;}
+
+ul li{
+  display: inline-block; padding:10px;
+  font-size:20px; font-family:"Montserrat";
+}
+
+ul li:hover{
+  color:orange;
+  
 }
